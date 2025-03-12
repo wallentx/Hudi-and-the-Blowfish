@@ -11,7 +11,7 @@ It encrypts a specified field (e.g., "sensitiveField") before writing records to
 ## Getting Started
 
 Prerequisites:
-- Java 8 or higher
+- Java 17 or higher
 - Maven
 
 Build:
