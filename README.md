@@ -1,4 +1,4 @@
-# Hudi and the Blowfish
+![1000005041](https://github.com/user-attachments/assets/48bd6592-cd24-480e-8ad2-aeb694040f50)
 
 Hudi and the Blowfish is a custom Apache Hudi extension that integrates Blowfish encryption into your Hudi data pipeline.
 It encrypts a specified field (e.g., "sensitiveField") before writing records to S3.
