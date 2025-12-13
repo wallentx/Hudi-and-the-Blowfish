@@ -13,13 +13,23 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.apache.hudi</groupId>
-      <artifactId>hudi-common</artifactId>
-      <version>1.1.0</version>
-    </dependency>
-  </dependencies>
+<dependencies>
+  <dependency>
+    <groupId>org.apache.hudi</groupId>
+    <artifactId>hudi-common</artifactId>
+    <version>1.1.0</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.avro</groupId>
+    <artifactId>avro</artifactId>
+    <version>1.11.0</version>
+  </dependency>
+  <dependency>
+    <groupId>com.esotericsoftware</groupId>
+    <artifactId>kryo</artifactId>
+    <version>5.3.0</version>
+  </dependency>
+</dependencies>
 
   <profiles>
     <!-- This profile activates on JDK 11 and later -->
